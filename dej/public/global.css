@@ -1,0 +1,28 @@
+html,
+body,
+.page {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* needed for proper layout */
+}
+
+.page {
+	display: flex;
+	flex-direction: column;
+}
+  
+.page header {
+	flex: 0 0 auto;
+	background-color: #dcdcdc;
+}
+
+.page main {
+  flex: 1 1 auto;
+  position: relative;/* need this to position inner content */
+  overflow-y: auto;
+}
+
+.page footer {
+  flex: 0 0 auto;
+  background-color: #dcdcdc;
+}
